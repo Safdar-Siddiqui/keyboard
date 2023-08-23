@@ -1,0 +1,186 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* min-height: 100vh; */
+}
+
+#heading{
+    font-size: 28px;
+    font-weight: 600;
+    text-align:center ;
+    border: 2px solid black;
+    margin-bottom: 25px;
+    width: 60%;
+    border-radius: 25px;
+}
+button{
+    /* width: 45px; */
+    /* width: 5em; */
+    width: 4vw;
+    height: 8vh;
+    /* height: 5em; */
+    font-size: 0.7em;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    background-color: rgb(47, 47, 47);
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    /* border: 1px solid white; */
+    /* outline: none; */
+    border-radius: 5px;
+    margin-inline: 1px;
+    cursor: pointer;
+    box-shadow: 0px 0px 1px #fff;
+    line-height: 18px;
+}
+
+.container{
+    background-color: rgb(171, 168, 168);
+    border-radius: 5px 5px 10px 10px;
+    /* height: 350px; */
+    padding: 20px 5px;
+    display: flex;
+    width: fit-content;
+}
+
+#left{
+    /* background-color: aqua; */
+}
+
+#mid{
+    /* background-color: blueviolet; */
+}
+
+#right{
+    /* background-color: burlywood; */
+}
+
+#funcKeyRow{
+    /* background-color: tomato; */
+    display: flex;
+    align-items: center;
+}
+
+#FirstRow{
+    /* background-color: violet; */
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+#SecondRow{
+    /* background-color:teal; */
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+#ThirdRow{
+    /* background-color:steelblue; */
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+#FourthRow{
+    /* background-color:springgreen; */
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+#LastRow{
+    /* background-color:skyblue; */
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+#spcBtn{
+    /* width: 284px; */
+    width: 27vw;
+}
+
+#tabBtn{
+    /* width: 76px; */
+    width: 6vw;
+}
+
+#bckspcBtn{
+    /* width: 76px; */
+    width: 6vw;
+}
+/* #leftEntBtn{
+    height: 100px;
+} */
+
+#cpsBtn{
+    /* width: 76px; */
+    width: 6vw;
+}
+
+#leftShftBtn{
+    /* width: 102px; */
+    width: 9vw;
+}
+
+#rightShfBtn{
+    /* width: 104px; */
+    width: 9.3vw;
+}
+
+.w-50{
+    /* width: 50px; */
+    width: 4.55vw;
+}
+
+#winBtn{
+    background-image: url("windows.svg");
+    background-repeat: no-repeat;
+    background-size: 18px 20px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#propBtn{
+    background-image: url("menu-boxed.svg");
+    background-repeat: no-repeat;
+    background-size: 27px 27px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#abc{
+    display: flex;
+    /* background-color: aqua; */
+}
+#abc #leftEntBtn{
+    /* height: 86.5px; */
+    height: 16.5vh;
+    margin-left: -16px;
+    margin-top: 2.8px;
+}
+
+#right #top{
+    width: auto;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+#light1, #light2, #light3{
+    background-color: rgb(98, 245, 1);
+    width: 12px;
+    height: 12px;
+    margin-inline: 15px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 3px #0b300b;
+}
+
+#light3{
+    background-color: rgb(12, 71, 16);
+}
+
+
+
+
